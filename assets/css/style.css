@@ -56,7 +56,8 @@ body {
 }
 
 .card-container:hover::before {
-  transform: translateY(-100%);
+  transform:  translateX(-130%) scaleY(0.04) scaleX(.75);
+  border-radius: 5px ; 
 }
 
 .card-container:hover::after{
